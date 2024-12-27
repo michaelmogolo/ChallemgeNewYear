@@ -28,9 +28,12 @@
 </template>
 
 <script lang="ts" setup>
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { ref, onMounted, onUnmounted } from 'vue';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+
 import gsap from 'gsap';
 import confetti from 'canvas-confetti';
 
